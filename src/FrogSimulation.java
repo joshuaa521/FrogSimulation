@@ -5,10 +5,6 @@ public class FrogSimulation {
     {
         goalDistance = dist;
         maxHops = numHops;
-        int maxHops;
-        int i;
-        for i in maxHops,
-    }
     private int hopDistance()
     {
 
