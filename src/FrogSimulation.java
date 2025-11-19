@@ -27,7 +27,7 @@ public class FrogSimulation
      */
     public boolean simulate()
     {
-        return maxHops*hopDistance() > goalDistance;
+        return maxHops * hopDistance() > goalDistance;
     }
     /** Runs num simulations and returns the proportion of simulations in which the frog
      * successfully reached or passed the goal.
@@ -35,12 +35,12 @@ public class FrogSimulation
      */
     public double runSimulations(int num)
     {
-        int counter =0;
-        for (int i = 0; i<num; i++) {
+        int count = 0;
+        for (int i = 0; i < num; i++) {
             if (simulate()) {
-                counter++;
+                count++;
             }
         }
-        return ((double) counter /num);
+        return ((double) count / num);
     }
 }
