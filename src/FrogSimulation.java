@@ -18,7 +18,7 @@ public class FrogSimulation
      */
     private int hopDistance()
     {
-        return (int)(Math.random()*40-10);
+        return (int) (Math.random() * 40 -10);
     }
 
     /** Simulates a frog attempting to reach the goal as described in part (a).
